@@ -90,7 +90,7 @@ export function Hero() {
                 fill
                 priority
                 sizes="(max-width: 1024px) 90vw, 40vw"
-                className="object-cover object-top img-editorial"
+                className="object-cover object-top"
               />
               <div
                 aria-hidden

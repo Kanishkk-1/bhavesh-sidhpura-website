@@ -27,7 +27,7 @@ export function MeetBhavesh() {
                     alt="Bhavesh Sidhpura"
                     fill
                     sizes="(max-width: 1024px) 90vw, 34vw"
-                    className="object-cover object-top img-editorial"
+                    className="object-cover object-top"
                   />
                 </div>
               </div>

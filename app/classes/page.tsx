@@ -47,7 +47,7 @@ export default function ClassesPage() {
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 24rem"
-                    className="object-cover object-top img-editorial"
+                    className="object-cover object-top"
                   />
                 </div>
               </Reveal>

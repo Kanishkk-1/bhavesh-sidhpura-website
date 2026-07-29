@@ -920,9 +920,9 @@ export const possibilityMap = {
 --------------------------------------------------------------------------- */
 export const images = {
   // Home hero — warm, facing camera, reads well inside a framed portrait
-  heroPortrait: "/images/d.jpeg",
+  heroPortrait: "/images/main.jpeg",
   // Home "Meet Bhavesh" — composed, seated, editorial
-  meetBhavesh: "/images/c.jpeg",
+  meetBhavesh: "/images/bgremoved.jpeg",
   // Sessions featured card — at work on stage
   delivering: "/images/e.jpeg",
   // Story — relaxed, friendly (section currently unused)
@@ -930,7 +930,7 @@ export const images = {
   // Booking — relaxed, friendly portrait
   warm: "/images/b.jpeg",
   // Classes page hero — "Advanced Body Class" banner in frame, on-theme
-  classroom: "/images/e.jpeg",
+  classroom: "/images/bgremoved.jpeg",
   // About page — the businessman, before the work
   aboutPortrait: "/images/a.jpeg",
 };
