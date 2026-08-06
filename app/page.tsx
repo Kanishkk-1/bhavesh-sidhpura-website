@@ -4,6 +4,7 @@ import { Recognition } from "@/components/sections/Recognition";
 import { Services } from "@/components/sections/Services";
 import { Steps } from "@/components/sections/Steps";
 import { Transformations } from "@/components/sections/Transformations";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { MostNeverTry } from "@/components/sections/MostNeverTry";
 import { Circle } from "@/components/sections/Circle";
 import { ExperienceTeaser } from "@/components/sections/ExperienceTeaser";
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Steps />
       <Transformations />
+      <Testimonials />
       <MostNeverTry />
       <Circle />
       <ExperienceTeaser />

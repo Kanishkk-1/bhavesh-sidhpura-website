@@ -46,6 +46,7 @@ export const nav = [
   { label: "Sessions", href: "/sessions" },
   { label: "Experience", href: "/experience" },
   { label: "Classes", href: "/classes" },
+  { label: "Testimonials", href: "/testimonials" },
 ] as const;
 
 /* The hook. A question, not a pitch. The visitor should feel seen
@@ -55,7 +56,7 @@ export const hero = {
   question: "What if the problem you keep trying to solve",
   questionEmphasis: "was never the real problem?",
   subhead:
-    "The answers about money, relationships, and life you have been chasing outside are not out there. They are already in you, right now. This is the doorway in.",
+    "The answers about money, relationships, health, and life you have been chasing outside are not out there. They are already in you, right now. This is the doorway in.",
   hint: "Guided by Bhavesh Sidhpura, a Pune businessman who kept doing everything right and still hit a wall, until he found another way to run his work and his life. Now he helps others find it through Access Consciousness.",
   primaryCta: "Discover what's possible",
   secondaryCta: "Book a session",
@@ -317,7 +318,7 @@ export const bookPage = {
 };
 
 /* THE RECOGNITION — the "this is exactly me" moment.
-   Three questions that read like the visitor's own private diary.
+   Questions that read like the visitor's own private diary.
    No answers given here. Only mirrors. */
 export const recognition = {
   label: "The recognition",
@@ -333,6 +334,10 @@ export const recognition = {
     {
       area: "Relationships",
       q: "What if the distance you feel from the people closest to you began as a distance from yourself?",
+    },
+    {
+      area: "Health",
+      q: "What if the exhaustion, the tension, the body that will not settle is asking a question you have not yet heard?",
     },
     {
       area: "Life",
@@ -900,6 +905,32 @@ export const possibilityMap = {
                   label: "The hidden assumption",
                   insight:
                     "\u201cIf I stop, I will have to feel it.\u201d Feel it once, fully, and it turns into direction.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      label: "Health",
+      insight:
+        "The body keeps the score of every choice you made to keep going when something needed to stop.",
+      children: [
+        {
+          label: "Always tired",
+          insight:
+            "Exhaustion is not always a sleep problem. Often it is the cost of carrying what was never yours to hold.",
+          children: [
+            {
+              label: "Pushing through",
+              insight:
+                "You treat the body like a machine that should obey. It has been asking for a different conversation.",
+              children: [
+                {
+                  label: "The hidden assumption",
+                  insight:
+                    "\u201cI do not have time to feel this.\u201d The day you make time, the body stops shouting and starts guiding.",
                 },
               ],
             },

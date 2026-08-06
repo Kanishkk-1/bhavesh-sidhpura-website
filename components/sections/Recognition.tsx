@@ -25,7 +25,7 @@ export function Recognition() {
           </Reveal>
         </div>
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-card border border-border bg-border md:grid-cols-3">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-card border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {recognition.questions.map((item, i) => (
             <Reveal as="div" index={i} key={item.area}>
               <div className="group flex h-full flex-col bg-bg p-8 transition-colors duration-500 hover:bg-bg-elevated lg:p-10">
