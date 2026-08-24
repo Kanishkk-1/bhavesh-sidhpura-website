@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   WhatsappLogo,
+  Megaphone,
   InstagramLogo,
   EnvelopeSimple,
   FacebookLogo,
@@ -8,7 +9,7 @@ import {
   LinkedinLogo,
 } from "@phosphor-icons/react/dist/ssr";
 import { Container } from "./ui/Container";
-import { nav, site } from "@/lib/site";
+import { booking, nav, site } from "@/lib/site";
 
 const socialLinks = [
   { label: "Instagram", href: site.social.instagram, Icon: InstagramLogo },
@@ -18,6 +19,10 @@ const socialLinks = [
 ].filter((s) => s.href);
 
 export function Footer() {
+  const channelReady =
+    site.whatsappChannel.startsWith("http") &&
+    !site.whatsappChannel.includes("your-channel-id");
+
   return (
     <footer className="mt-auto border-t border-border bg-bg">
       <Container className="py-16">
@@ -68,6 +73,19 @@ export function Footer() {
                   WhatsApp
                 </a>
               </li>
+              {channelReady && (
+                <li>
+                  <a
+                    href={site.whatsappChannel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2.5 hover:text-text"
+                  >
+                    <Megaphone size={18} weight="regular" />
+                    {booking.channelLabel}
+                  </a>
+                </li>
+              )}
               <li>
                 <a
                   href={`mailto:${site.email}`}

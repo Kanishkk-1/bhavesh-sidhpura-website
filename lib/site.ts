@@ -17,6 +17,12 @@ export const site = {
     display: "+91 00000 00000",
     link: "https://wa.me/910000000000",
   },
+  // PLACEHOLDER WhatsApp Channel — a private, broadcast-only channel that keeps
+  // his number hidden from members (and theirs from him). He posts session
+  // drops; followers cannot see contact info or chat back. In WhatsApp:
+  // Updates → New channel, then paste its public link (keep the "your-channel-id"
+  // token until then so the site shows a "coming soon" state instead of a dead link).
+  whatsappChannel: "https://whatsapp.com/channel/your-channel-id",
   email: "hello@bhaveshsidhpura.com",
   instagram: {
     handle: "@bhaveshsidhpura",
@@ -46,6 +52,7 @@ export const nav = [
   { label: "Sessions", href: "/sessions" },
   { label: "Experience", href: "/experience" },
   { label: "Classes", href: "/classes" },
+  { label: "Blog", href: "/blog" },
   { label: "Testimonials", href: "/testimonials" },
 ] as const;
 
@@ -613,7 +620,14 @@ export const booking = {
   label: "Begin",
   heading: "Ready when you are.",
   body: "Book a 1:1 session, or message first if you have a question. No long forms, no pressure.",
+  scheduleLabel: "Pick a time",
+  scheduleHeading: "Book a 1:1 session.",
+  contactLabel: "Prefer to talk first?",
+  contactBody: "No pressure to book. Message on WhatsApp with a question, or follow the channel for session drops.",
   whatsappPrompt: "Rather just talk? Message on WhatsApp",
+  channelPrompt: "Get session drops in the private WhatsApp channel",
+  channelPending: "Private WhatsApp channel \u2014 link coming soon",
+  channelLabel: "WhatsApp Channel",
   // Lightweight enquiry form (fallback for people who do not want Calendly).
   form: {
     heading: "Or send a note",

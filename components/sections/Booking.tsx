@@ -1,62 +1,95 @@
 import Image from "next/image";
-import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
-import { Container } from "../ui/Container";
+import { WhatsappLogo, Megaphone } from "@phosphor-icons/react/dist/ssr";
+import { Container, Eyebrow } from "../ui/Container";
 import { Reveal } from "../ui/Reveal";
 import { CalendlyEmbed } from "../ui/CalendlyEmbed";
 import { EnquiryForm } from "../ui/EnquiryForm";
 import { booking, site, images } from "@/lib/site";
 
 export function Booking() {
+  const channelReady =
+    site.whatsappChannel.startsWith("http") &&
+    !site.whatsappChannel.includes("your-channel-id");
+
   return (
     <section id="booking" className="scroll-mt-24 bg-surface py-20 lg:py-24">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
-          <div>
-            <Reveal>
-              <h2 className="font-display text-3xl font-light leading-[1.1] tracking-[-0.02em] text-text sm:text-4xl">
-                A 1:1 session, or just a hello.
+        <div className="grid items-start gap-10 lg:grid-cols-[1.35fr_0.65fr] lg:gap-14">
+          {/* Primary: live scheduling */}
+          <Reveal>
+            <div>
+              <Eyebrow>{booking.scheduleLabel}</Eyebrow>
+              <h2 className="mt-4 font-display text-3xl font-light leading-[1.1] tracking-[-0.02em] text-text sm:text-4xl">
+                {booking.scheduleHeading}
               </h2>
-              <p className="mt-5 max-w-md text-lg leading-relaxed text-text-muted">
-                {booking.body}
-              </p>
-            </Reveal>
+              <div className="mt-8">
+                <CalendlyEmbed url={site.calendly} />
+              </div>
+            </div>
+          </Reveal>
 
-            <Reveal index={1}>
-              <div className="relative mt-9 aspect-4/5 w-full max-w-sm overflow-hidden rounded-card bg-bg">
+          {/* Aside: personal + alternative ways to reach him */}
+          <Reveal index={1}>
+            <aside className="rounded-card border border-border bg-bg-elevated p-6 lg:sticky lg:top-24 lg:p-7">
+              <div className="relative aspect-4/5 w-full overflow-hidden rounded-card bg-bg">
                 <Image
                   src={images.warm}
                   alt="Bhavesh Sidhpura"
                   fill
-                  sizes="(max-width: 1024px) 90vw, 32vw"
+                  sizes="(max-width: 1024px) 90vw, 26vw"
                   className="object-cover object-top img-editorial"
                 />
               </div>
-            </Reveal>
 
-            <Reveal index={2}>
-              <a
-                href={site.whatsapp.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-3 rounded-full border border-border-strong bg-bg px-6 py-3.5 text-[0.95rem] font-medium text-text transition-colors hover:border-accent hover:text-accent"
-              >
-                <WhatsappLogo size={20} weight="fill" className="text-accent" />
-                {booking.whatsappPrompt}
-              </a>
-            </Reveal>
-          </div>
+              <h3 className="mt-6 font-display text-xl font-light text-text">
+                {booking.contactLabel}
+              </h3>
+              <p className="mt-2 text-[0.95rem] leading-relaxed text-text-muted">
+                {booking.contactBody}
+              </p>
 
-          <Reveal index={1}>
-            <CalendlyEmbed url={site.calendly} />
+              <div className="mt-5 flex flex-col gap-3">
+                <a
+                  href={site.whatsapp.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2.5 rounded-full border border-border-strong bg-bg px-5 py-3 text-[0.92rem] font-medium text-text transition-colors hover:border-accent hover:text-accent"
+                >
+                  <WhatsappLogo size={19} weight="fill" className="text-accent" />
+                  {booking.whatsappPrompt}
+                </a>
+
+                {channelReady ? (
+                  <a
+                    href={site.whatsappChannel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2.5 rounded-full border border-border-strong bg-bg px-5 py-3 text-[0.92rem] font-medium text-text transition-colors hover:border-accent hover:text-accent"
+                  >
+                    <Megaphone size={19} weight="fill" className="text-accent" />
+                    {booking.channelPrompt}
+                  </a>
+                ) : (
+                  <span className="inline-flex items-center justify-center gap-2.5 rounded-full border border-dashed border-border-strong px-5 py-3 text-[0.92rem] font-medium text-text-muted">
+                    <Megaphone size={19} weight="regular" />
+                    {booking.channelPending}
+                  </span>
+                )}
+              </div>
+            </aside>
           </Reveal>
         </div>
 
-        <Reveal index={1}>
-          <div className="mt-8 lg:mt-12 lg:ml-auto lg:max-w-2xl">
-            <EnquiryForm />
-          </div>
-        </Reveal>
+        {/* Enquiry form, clearly separated */}
+        <div className="mt-14 border-t border-border pt-14 lg:mt-16 lg:pt-16">
+          <Reveal>
+            <div className="mx-auto max-w-2xl">
+              <EnquiryForm />
+            </div>
+          </Reveal>
+        </div>
       </Container>
     </section>
   );
 }
+

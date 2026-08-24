@@ -8,6 +8,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { MostNeverTry } from "@/components/sections/MostNeverTry";
 import { Circle } from "@/components/sections/Circle";
 import { ExperienceTeaser } from "@/components/sections/ExperienceTeaser";
+import { BlogTeaser } from "@/components/sections/BlogTeaser";
 import { ClosingCta } from "@/components/sections/ClosingCta";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <MostNeverTry />
       <Circle />
       <ExperienceTeaser />
+      <BlogTeaser />
       <ClosingCta />
     </main>
   );

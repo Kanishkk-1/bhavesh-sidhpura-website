@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  :root {
+    --bg: #14120e;
+    --text: #f3efe6;
+    --text-muted: #a39c8c;
+    --accent: #cba56e;
+    --border: rgba(243, 239, 230, 0.14);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 100px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .slide::before {
+    content: "";
+    position: absolute;
+    inset: 40px;
+    border: 1px solid var(--border);
+  }
+  .kicker {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 22px;
+    color: var(--accent);
+    margin-bottom: 40px;
+  }
+  .headline {
+    font-size: 64px;
+    line-height: 1.25;
+    font-weight: 500;
+  }
+  .headline em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .footer {
+    position: absolute;
+    bottom: 90px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+  .cta .headline { color: var(--accent); font-size: 56px; }
+  .cta .sub { margin-top: 30px; font-family: Arial, sans-serif; font-size: 26px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<div class="slide" id="slide-1">
+  <div class="kicker">His story · 1/6</div>
+  <div class="headline">He was a businessman.<br/>Not <em>"a spiritual type."</em></div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Swipe →</span></div>
+</div>
+
+<div class="slide" id="slide-2">
+  <div class="kicker">2/6</div>
+  <div class="headline">There came a year his business was <em>bleeding money.</em></div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Swipe →</span></div>
+</div>
+
+<div class="slide" id="slide-3">
+  <div class="kicker">3/6</div>
+  <div class="headline">He'd done everything right. Worked harder. Cut costs. Took advice from every mentor he could find.<br/><em>Nothing worked.</em></div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Swipe →</span></div>
+</div>
+
+<div class="slide" id="slide-4">
+  <div class="kicker">4/6</div>
+  <div class="headline">He found Access Consciousness almost by accident — and tried it <em>mostly to disprove it.</em></div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Swipe →</span></div>
+</div>
+
+<div class="slide" id="slide-5">
+  <div class="kicker">5/6</div>
+  <div class="headline">Something shifted. Not the market yet.<br/><em>Something in him.</em></div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Swipe →</span></div>
+</div>
+
+<div class="slide cta" id="slide-6">
+  <div class="kicker">6/6</div>
+  <div class="headline">He never left business.<br/><em>He changed how he runs it.</em></div>
+  <div class="sub">Access Bars · Facelift · Body Process<br/>Sessions in Pune — link in bio</div>
+  <div class="footer"><span>@bhaveshsidhpura</span><span>Book a session →</span></div>
+</div>
+
+</body>
+</html>
