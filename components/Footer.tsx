@@ -1,11 +1,8 @@
 import Link from "next/link";
 import {
-  WhatsappLogo,
   Megaphone,
   InstagramLogo,
   EnvelopeSimple,
-  FacebookLogo,
-  YoutubeLogo,
   LinkedinLogo,
 } from "@phosphor-icons/react/dist/ssr";
 import { Container } from "./ui/Container";
@@ -20,18 +17,6 @@ const socialLinks = [
       backgroundImage:
         "linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)",
     },
-  },
-  {
-    label: "Facebook",
-    href: site.social.facebook,
-    Icon: FacebookLogo,
-    style: { backgroundColor: "#1877F2" },
-  },
-  {
-    label: "YouTube",
-    href: site.social.youtube,
-    Icon: YoutubeLogo,
-    style: { backgroundColor: "#FF0000" },
   },
   {
     label: "LinkedIn",
@@ -85,17 +70,6 @@ export function Footer() {
               Contact
             </p>
             <ul className="mt-4 space-y-3 text-[0.95rem] text-text-muted">
-              <li>
-                <a
-                  href={site.whatsapp.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2.5 rounded-full bg-[#25D366] px-4 py-2 font-medium text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:opacity-95"
-                >
-                  <WhatsappLogo size={18} weight="fill" />
-                  WhatsApp
-                </a>
-              </li>
               {channelReady && (
                 <li>
                   <a
@@ -111,7 +85,9 @@ export function Footer() {
               )}
               <li>
                 <a
-                  href={`mailto:${site.email}`}
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${site.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 hover:text-text"
                 >
                   <EnvelopeSimple size={18} weight="regular" />

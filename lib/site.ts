@@ -21,7 +21,7 @@ export const site = {
   // members (and theirs from him). He posts session drops; followers cannot
   // see contact info or chat back.
   whatsappChannel: "https://whatsapp.com/channel/0029VbDzjUHElah2fIpoR40A",
-  email: "hello@bhaveshsidhpura.com",
+  email: "bhaveeshsidhpuura@gmail.com",
   instagram: {
     handle: "@bhaveshsidhpura",
     link: "https://instagram.com/bhaveshsidhpura",
