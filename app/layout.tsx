@@ -6,6 +6,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { EmberCursor } from "@/components/ui/EmberCursor";
 import { Grain } from "@/components/ui/Grain";
+import { WhatsAppFab } from "@/components/ui/WhatsAppFab";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 const newsreader = Newsreader({
@@ -135,6 +136,7 @@ export default function RootLayout({
         <Nav />
         {children}
         <Footer />
+        <WhatsAppFab />
       </body>
     </html>
   );

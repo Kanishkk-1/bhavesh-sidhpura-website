@@ -12,10 +12,33 @@ import { Container } from "./ui/Container";
 import { booking, nav, site } from "@/lib/site";
 
 const socialLinks = [
-  { label: "Instagram", href: site.social.instagram, Icon: InstagramLogo },
-  { label: "Facebook", href: site.social.facebook, Icon: FacebookLogo },
-  { label: "YouTube", href: site.social.youtube, Icon: YoutubeLogo },
-  { label: "LinkedIn", href: site.social.linkedin, Icon: LinkedinLogo },
+  {
+    label: "Instagram",
+    href: site.social.instagram,
+    Icon: InstagramLogo,
+    style: {
+      backgroundImage:
+        "linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)",
+    },
+  },
+  {
+    label: "Facebook",
+    href: site.social.facebook,
+    Icon: FacebookLogo,
+    style: { backgroundColor: "#1877F2" },
+  },
+  {
+    label: "YouTube",
+    href: site.social.youtube,
+    Icon: YoutubeLogo,
+    style: { backgroundColor: "#FF0000" },
+  },
+  {
+    label: "LinkedIn",
+    href: site.social.linkedin,
+    Icon: LinkedinLogo,
+    style: { backgroundColor: "#0A66C2" },
+  },
 ].filter((s) => s.href);
 
 export function Footer() {
@@ -67,9 +90,9 @@ export function Footer() {
                   href={site.whatsapp.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2.5 hover:text-text"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-[#25D366] px-4 py-2 font-medium text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:opacity-95"
                 >
-                  <WhatsappLogo size={18} weight="regular" />
+                  <WhatsappLogo size={18} weight="fill" />
                   WhatsApp
                 </a>
               </li>
@@ -79,9 +102,9 @@ export function Footer() {
                     href={site.whatsappChannel}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 hover:text-text"
+                    className="inline-flex items-center gap-2.5 text-[#25D366] transition-colors hover:opacity-80"
                   >
-                    <Megaphone size={18} weight="regular" />
+                    <Megaphone size={18} weight="fill" />
                     {booking.channelLabel}
                   </a>
                 </li>
@@ -97,17 +120,18 @@ export function Footer() {
               </li>
             </ul>
 
-            <div className="mt-6 flex items-center gap-2">
-              {socialLinks.map(({ label, href, Icon }) => (
+            <div className="mt-6 flex items-center gap-2.5">
+              {socialLinks.map(({ label, href, Icon, style }) => (
                 <a
                   key={label}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="grid h-10 w-10 place-items-center rounded-full border border-border text-text-muted transition-colors hover:border-accent hover:text-accent"
+                  style={style}
+                  className="grid h-10 w-10 place-items-center rounded-full text-white shadow-soft transition-transform duration-300 hover:-translate-y-0.5 hover:opacity-90"
                 >
-                  <Icon size={18} weight="regular" />
+                  <Icon size={19} weight="fill" />
                 </a>
               ))}
             </div>

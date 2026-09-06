@@ -17,12 +17,10 @@ export const site = {
     display: "+91 00000 00000",
     link: "https://wa.me/910000000000",
   },
-  // PLACEHOLDER WhatsApp Channel — a private, broadcast-only channel that keeps
-  // his number hidden from members (and theirs from him). He posts session
-  // drops; followers cannot see contact info or chat back. In WhatsApp:
-  // Updates → New channel, then paste its public link (keep the "your-channel-id"
-  // token until then so the site shows a "coming soon" state instead of a dead link).
-  whatsappChannel: "https://whatsapp.com/channel/your-channel-id",
+  // Private, broadcast-only WhatsApp Channel — keeps his number hidden from
+  // members (and theirs from him). He posts session drops; followers cannot
+  // see contact info or chat back.
+  whatsappChannel: "https://whatsapp.com/channel/0029VbDzjUHElah2fIpoR40A",
   email: "hello@bhaveshsidhpura.com",
   instagram: {
     handle: "@bhaveshsidhpura",
