@@ -23,15 +23,15 @@ export const site = {
   whatsappChannel: "https://whatsapp.com/channel/0029VbDzjUHElah2fIpoR40A",
   email: "bhaveeshsidhpuura@gmail.com",
   instagram: {
-    handle: "@bhaveshsidhpura",
-    link: "https://instagram.com/bhaveshsidhpura",
+    handle: "@elevate_ur_consciousness",
+    link: "https://www.instagram.com/elevate_ur_consciousness",
   },
   // PLACEHOLDER social profiles. Set link to "" to hide a channel in the UI.
   social: {
-    instagram: "https://instagram.com/bhaveshsidhpura",
+    instagram: "https://www.instagram.com/elevate_ur_consciousness",
     facebook: "https://facebook.com/bhaveshsidhpura",
     youtube: "https://youtube.com/@bhaveshsidhpura",
-    linkedin: "https://www.linkedin.com/in/bhaveshsidhpura",
+    linkedin: "https://www.linkedin.com/in/bhavesh-sidhpura-0433229/",
   },
   // PLACEHOLDER Calendly inline URL
   calendly: "https://calendly.com/bhaveeshsidhpuura/30min",

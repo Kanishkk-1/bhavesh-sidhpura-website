@@ -74,16 +74,16 @@ export function CalendlyEmbed({ url }: { url: string }) {
       {/* Warm up the connection so the widget paints sooner */}
       <link rel="preconnect" href="https://assets.calendly.com" crossOrigin="" />
       <link rel="preconnect" href="https://calendly.com" crossOrigin="" />
-      <div className="relative min-h-[700px] overflow-hidden rounded-card border border-border">
+      <div className="relative h-[760px] overflow-hidden rounded-card border border-border md:h-[720px]">
         {!loaded && (
-          <div className="absolute inset-0 grid place-items-center bg-bg-elevated">
+          <div className="absolute inset-0 z-10 grid place-items-center bg-bg-elevated">
             <div className="flex flex-col items-center gap-3 text-text-muted">
               <span className="h-6 w-6 animate-spin rounded-full border-2 border-border border-t-accent" />
               <span className="text-sm">Loading scheduling…</span>
             </div>
           </div>
         )}
-        <div ref={ref} className="h-full min-h-[700px]" />
+        <div ref={ref} className="h-full w-full" />
       </div>
     </>
   );
