@@ -34,7 +34,7 @@ export const site = {
     linkedin: "https://www.linkedin.com/in/bhaveshsidhpura",
   },
   // PLACEHOLDER Calendly inline URL
-  calendly: "https://calendly.com/your-handle/session",
+  calendly: "https://calendly.com/bhaveeshsidhpuura/30min",
   // PLACEHOLDER session area shown publicly; exact address shared on booking
   area: "Koregaon Park area, Pune",
 } as const;
@@ -620,8 +620,8 @@ export const booking = {
   body: "Book a 1:1 session, or message first if you have a question. No long forms, no pressure.",
   scheduleLabel: "Pick a time",
   scheduleHeading: "Book a 1:1 session.",
-  contactLabel: "Prefer to talk first?",
-  contactBody: "No pressure to book. Message on WhatsApp with a question, or follow the channel for session drops.",
+  contactLabel: "Not ready to book yet?",
+  contactBody: "Follow the private WhatsApp channel for session drops and openings. Your number stays private \u2014 no spam, and you can leave anytime.",
   whatsappPrompt: "Rather just talk? Message on WhatsApp",
   channelPrompt: "Get session drops in the private WhatsApp channel",
   channelPending: "Private WhatsApp channel \u2014 link coming soon",

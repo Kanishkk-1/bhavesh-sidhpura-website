@@ -49,24 +49,14 @@ export function Booking() {
               </p>
 
               <div className="mt-5 flex flex-col gap-3">
-                <a
-                  href={site.whatsapp.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2.5 rounded-full border border-border-strong bg-bg px-5 py-3 text-[0.92rem] font-medium text-text transition-colors hover:border-accent hover:text-accent"
-                >
-                  <WhatsappLogo size={19} weight="fill" className="text-accent" />
-                  {booking.whatsappPrompt}
-                </a>
-
                 {channelReady ? (
                   <a
                     href={site.whatsappChannel}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2.5 rounded-full border border-border-strong bg-bg px-5 py-3 text-[0.92rem] font-medium text-text transition-colors hover:border-accent hover:text-accent"
+                    className="inline-flex items-center justify-center gap-2.5 rounded-full bg-[#25D366] px-5 py-3 text-[0.92rem] font-medium text-white shadow-soft transition-transform duration-300 hover:-translate-y-0.5 hover:opacity-95"
                   >
-                    <Megaphone size={19} weight="fill" className="text-accent" />
+                    <WhatsappLogo size={19} weight="fill" />
                     {booking.channelPrompt}
                   </a>
                 ) : (

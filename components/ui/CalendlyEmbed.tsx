@@ -47,7 +47,7 @@ export function CalendlyEmbed({ url }: { url: string }) {
     <div
       ref={ref}
       className="calendly-inline-widget min-h-[680px] overflow-hidden rounded-card border border-border"
-      data-url={url}
+      data-url={`${url}${url.includes("?") ? "&" : "?"}background_color=14120e&text_color=f3efe6&primary_color=a9793f&hide_gdpr_banner=1`}
     />
   );
 }
