@@ -7,7 +7,7 @@
 export const site = {
   name: "Bhavesh Sidhpura",
   role: "Access Consciousness Facilitator",
-  domain: "https://www.bhaveshsidhpura.com",
+  domain: "https://www.bhaveeshsidhpuura.com",
   title: "Bhavesh Sidhpura, Access Consciousness Facilitator",
   description:
     "A businessman who found another way. Access Bars, Facelift and Body Process sessions and classes in Pune, and across India on request.",
