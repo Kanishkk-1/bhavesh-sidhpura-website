@@ -32,7 +32,7 @@ export function Booking() {
               <div className="relative aspect-4/5 w-full overflow-hidden rounded-card bg-bg">
                 <Image
                   src={images.warm}
-                  alt="Bhavesh Sidhpura"
+                  alt="Bhaveesh Sidhpuura"
                   fill
                   sizes="(max-width: 1024px) 90vw, 26vw"
                   className="object-cover object-top img-editorial"

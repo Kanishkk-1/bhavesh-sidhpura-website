@@ -1,4 +1,4 @@
-# Bhavesh Sidhpura — Access Consciousness
+# Bhaveesh Sidhpuura — Access Consciousness
 
 Marketing site for an Access Consciousness facilitator. Built with Next.js 16
 (App Router, Turbopack), React 19, Tailwind v4, and Motion.

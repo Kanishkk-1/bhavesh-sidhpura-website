@@ -1,4 +1,4 @@
-# Bhavesh Sidhpura — Site Status & What We Need From You
+# Bhaveesh Sidhpuura — Site Status & What We Need From You
 
 **Updated:** 26 June 2026
 

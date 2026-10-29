@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
-   BLOG  ·  Bhavesh Sidhpura
+   BLOG  ·  Bhaveesh Sidhpuura
    Original, educational articles about Access Consciousness, Access Bars,
    the Energetic Facelift and body processes — written to help curious readers
    and to strengthen the site's organic search presence.
@@ -8,7 +8,7 @@
    - All content here is original. Access Consciousness®, Access Bars® and
      Access Energetic Facelift® are referenced descriptively only; the marks
      belong to Access Consciousness LLC.
-   - The only practitioner referenced is Bhavesh Sidhpura.
+   - The only practitioner referenced is Bhaveesh Sidhpuura.
    - To add a post: append a new object before the `// POSTS_END` marker.
 --------------------------------------------------------------------------- */
 
@@ -106,7 +106,7 @@ export const posts: BlogPost[] = [
         "Hands-on sessions such as Access Bars, the Energetic Facelift and body processes.",
       ] },
       { type: "h2", text: "What it is not" },
-      { type: "p", text: "It isn't a religion, and it isn't medical or psychological treatment. It doesn't ask you to abandon your logic, your work, or your responsibilities. Many people who explore it — Bhavesh Sidhpura among them — come from very grounded, results-driven backgrounds like business." },
+      { type: "p", text: "It isn't a religion, and it isn't medical or psychological treatment. It doesn't ask you to abandon your logic, your work, or your responsibilities. Many people who explore it — Bhaveesh Sidhpuura among them — come from very grounded, results-driven backgrounds like business." },
       { type: "quote", text: "You don't have to believe it. You only have to be willing to notice what changes." },
       { type: "p", text: "The honest invitation is this: try a tool, sit a session, and keep whatever proves useful to you. If you're curious to feel it rather than read about it, a first Access Bars session in Pune is the gentlest place to start." },
     ],
@@ -142,7 +142,7 @@ export const posts: BlogPost[] = [
         "2010s–2020s — worldwide growth and thousands of certified facilitators.",
       ] },
       { type: "h2", text: "Why the history matters" },
-      { type: "p", text: "Knowing the timeline helps separate the practice from the myths around it. It is not ancient or secret; it is a modern, evolving body of self-help tools. In India, facilitators like Bhavesh Sidhpura offer these same sessions and classes locally, in Pune and on request across the country." },
+      { type: "p", text: "Knowing the timeline helps separate the practice from the myths around it. It is not ancient or secret; it is a modern, evolving body of self-help tools. In India, facilitators like Bhaveesh Sidhpuura offer these same sessions and classes locally, in Pune and on request across the country." },
       { type: "p", text: "If the story interests you, the most direct way to understand it is to feel one of the tools for yourself." },
     ],
   },
@@ -177,7 +177,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "p", text: "They are not rivals. Plenty of people meditate and receive Access work; each supports the other. If you have struggled to sit still with meditation, receiving a session can be a gentle way in." },
       { type: "quote", text: "One you practise. One you receive. Both can leave you quieter than you started." },
-      { type: "p", text: "Curious how the received version feels? A first session with Bhavesh in Pune is a low-pressure way to compare it against your own experience of meditation." },
+      { type: "p", text: "Curious how the received version feels? A first session with Bhaveesh in Pune is a low-pressure way to compare it against your own experience of meditation." },
     ],
   },
   {
@@ -209,7 +209,7 @@ export const posts: BlogPost[] = [
         "You are encouraged to keep only what is useful to you.",
       ] },
       { type: "h2", text: "A grounded way to look at it" },
-      { type: "p", text: "Think of it as a toolbox, not a faith. You can use a spanner without joining a movement. Facilitators such as Bhavesh Sidhpura came to the work from ordinary, results-driven lives — in his case, business — not from a religious search." },
+      { type: "p", text: "Think of it as a toolbox, not a faith. You can use a spanner without joining a movement. Facilitators such as Bhaveesh Sidhpuura came to the work from ordinary, results-driven lives — in his case, business — not from a religious search." },
       { type: "p", text: "If the question was holding you back, hopefully that clears the air. The best test is always your own experience of a single session." },
     ],
   },
@@ -298,7 +298,7 @@ export const posts: BlogPost[] = [
     excerpt:
       "Healthy skepticism isn't a barrier to this work — it's a reasonable starting point. Here's a grounded way to approach it.",
     body: [
-      { type: "p", text: "If you're skeptical, you're in good company. Bhavesh Sidhpura first tried these tools partly to prove they wouldn't work. This article is for the pragmatic reader who wants neither hype nor dismissal." },
+      { type: "p", text: "If you're skeptical, you're in good company. Bhaveesh Sidhpuura first tried these tools partly to prove they wouldn't work. This article is for the pragmatic reader who wants neither hype nor dismissal." },
       { type: "h2", text: "You don't have to explain it to benefit from it" },
       { type: "p", text: "Plenty of things work before we fully understand the mechanism. The honest position with Access Bars is simple: many people report feeling calmer, sleeping better and thinking more clearly afterward. Whether that's the touch, the rest, or something else, you can test it on yourself." },
       { type: "h2", text: "Keep your standards" },
@@ -356,7 +356,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "What people notice" },
       { type: "p", text: "Reports vary, but common ones include a sense of calm, better sleep that night, and feeling lighter or less mentally cluttered. Some people notice more over a series of sessions; others feel a shift the first time." },
       { type: "quote", text: "The worst that happens is you feel like you've had a wonderful nap. The best is much more interesting." },
-      { type: "p", text: "That last line is a favourite in the community for a reason — it captures how low-risk and high-comfort a first session is. If you're in Pune and curious, a first Bars session with Bhavesh is the natural place to begin." },
+      { type: "p", text: "That last line is a favourite in the community for a reason — it captures how low-risk and high-comfort a first session is. If you're in Pune and curious, a first Bars session with Bhaveesh is the natural place to begin." },
     ],
   },
   {
@@ -424,7 +424,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Why 'feeling nothing' is fine too" },
       { type: "p", text: "If you don't feel fireworks, nothing has gone wrong. Plenty of people report that the real difference showed up afterward — a better night's sleep, a lighter mood, an easier decision the next day." },
       { type: "quote", text: "You can't do it wrong. There's no performance required — only rest." },
-      { type: "p", text: "The only way to know your own version is to feel it. A first session in Pune with Bhavesh is a gentle, no-expectations way to find out." },
+      { type: "p", text: "The only way to know your own version is to feel it. A first session in Pune with Bhaveesh is a gentle, no-expectations way to find out." },
     ],
   },
   {
@@ -493,7 +493,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Pairing it with everyday tools" },
       { type: "p", text: "Many people combine the session with a simple verbal tool afterward — asking 'what would make this easier?' instead of 'how will I ever cope?'. The session softens the state; the question keeps it soft." },
       { type: "quote", text: "You can't pour from an empty cup, but you also can't fill it by trying harder." },
-      { type: "p", text: "If you've been running on empty, consider a session less as a luxury and more as maintenance. In Pune, a first Bars session with Bhavesh is a calm place to start putting the load down." },
+      { type: "p", text: "If you've been running on empty, consider a session less as a luxury and more as maintenance. In Pune, a first Bars session with Bhaveesh is a calm place to start putting the load down." },
     ],
   },
   {
@@ -624,7 +624,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Sensible boundaries" },
       { type: "p", text: "It isn't a treatment for any condition, and it never replaces medical, educational or psychological support a child may need. Think of it as a gentle relaxation tool that sits alongside good care, not instead of it." },
       { type: "quote", text: "For an overstimulated young mind, an hour of genuine quiet is its own kind of gift." },
-      { type: "p", text: "Parents are always welcome to ask questions first. If you're in Pune and curious about a calm session for your child or teen, reach out and Bhavesh will talk it through with you honestly." },
+      { type: "p", text: "Parents are always welcome to ask questions first. If you're in Pune and curious about a calm session for your child or teen, reach out and Bhaveesh will talk it through with you honestly." },
     ],
   },
   {
@@ -657,7 +657,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "During and after" },
       { type: "p", text: "You'll lie back and rest while the points are gently held for around an hour. Afterward, take your time getting up, drink some water, and don't rush into a hectic schedule if you can help it — many people feel pleasantly dreamy." },
       { type: "quote", text: "The only thing you have to do is nothing. That's harder — and lovelier — than it sounds." },
-      { type: "p", text: "Sessions with Bhavesh are held in the Koregaon Park area of Pune, with the exact address shared when you book. If you're ready, booking a first session is a calm, no-pressure next step." },
+      { type: "p", text: "Sessions with Bhaveesh are held in the Koregaon Park area of Pune, with the exact address shared when you book. If you're ready, booking a first session is a calm, no-pressure next step." },
     ],
   },
   {
@@ -691,7 +691,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "What you can do afterward" },
       { type: "p", text: "Once you've taken the class, you can run the Bars for friends and family, and receive it in gifting-and-receiving swaps with others who've trained. It's a genuinely useful life skill, not just a certificate." },
       { type: "quote", text: "Give a person a session and they relax for an hour. Teach them the Bars and they can relax a whole household." },
-      { type: "p", text: "Bhavesh runs certified Access Bars classes in Pune. If learning the tool yourself appeals more than only receiving it, the class is a rewarding next step." },
+      { type: "p", text: "Bhaveesh runs certified Access Bars classes in Pune. If learning the tool yourself appeals more than only receiving it, the class is a rewarding next step." },
     ],
   },
   {
@@ -725,7 +725,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "An honest note on the name" },
       { type: "p", text: "This is not a cosmetic or medical procedure and it makes no clinical claims. If you want measurable cosmetic outcomes, that's a different world. What this offers is relaxation and a sense of ease — which, over time, many people feel shows in how they look and carry themselves." },
       { type: "quote", text: "Less a procedure, more a profoundly restful hour for your face and nervous system." },
-      { type: "p", text: "If a genuinely relaxing, non-invasive process appeals, the Energetic Facelift is a lovely place to start. Bhavesh offers it as both a session and a class in Pune." },
+      { type: "p", text: "If a genuinely relaxing, non-invasive process appeals, the Energetic Facelift is a lovely place to start. Bhaveesh offers it as both a session and a class in Pune." },
     ],
   },
   {
@@ -757,7 +757,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Setting fair expectations" },
       { type: "p", text: "This is not a substitute for anything medical or cosmetic, and results are subtle and personal. Approached as a soothing ritual rather than a clinical treatment, most people find it a genuine pleasure." },
-      { type: "p", text: "If a natural, restful approach to feeling refreshed appeals more than anything dramatic, the Energetic Facelift with Bhavesh in Pune is an easy, gentle experiment." },
+      { type: "p", text: "If a natural, restful approach to feeling refreshed appeals more than anything dramatic, the Energetic Facelift with Bhaveesh in Pune is an easy, gentle experiment." },
     ],
   },
   {
@@ -791,7 +791,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "They can even coexist" },
       { type: "p", text: "Choosing one doesn't rule out the other. Some people enjoy the Energetic Facelift purely for the calm, entirely separately from any cosmetic choices they make elsewhere." },
       { type: "quote", text: "Ask what you actually want — a change, or a rest. The honest answer points you to the right door." },
-      { type: "p", text: "If it's ease and relaxation you're after, the Energetic Facelift with Bhavesh in Pune is a gentle place to begin." },
+      { type: "p", text: "If it's ease and relaxation you're after, the Energetic Facelift with Bhaveesh in Pune is a gentle place to begin." },
     ],
   },
   {
@@ -824,7 +824,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Why it's worth doing" },
       { type: "p", text: "Regular practice keeps your touch confident and your sessions generous, and the groups themselves become a warm, low-key social ritual. You get better at giving and you receive regularly — a genuinely good deal." },
-      { type: "p", text: "If you'd like to learn the process first, Bhavesh runs the Energetic Facelift class in Pune, after which hosting your own group becomes easy and fun." },
+      { type: "p", text: "If you'd like to learn the process first, Bhaveesh runs the Energetic Facelift class in Pune, after which hosting your own group becomes easy and fun." },
     ],
   },
   {
@@ -857,7 +857,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "What people use them for" },
       { type: "p", text: "People turn to body processes for deep relaxation and a feeling of ease in the body. As always, they aren't medical treatments and don't claim to cure conditions — they're gentle, complementary experiences." },
       { type: "quote", text: "The body carries a lot. These processes are an invitation for it to set some of that down." },
-      { type: "p", text: "If the Bars intrigued you, the body processes are a natural next curiosity. Bhavesh is certified in Access body processes and offers them in Pune." },
+      { type: "p", text: "If the Bars intrigued you, the body processes are a natural next curiosity. Bhaveesh is certified in Access body processes and offers them in Pune." },
     ],
   },
   {
@@ -889,7 +889,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "A complement, not a cure" },
       { type: "p", text: "For persistent pain or injury, see a qualified medical professional. Body processes are a gentle complement to good care — a way to help a tired body relax, not a treatment for a condition." },
-      { type: "p", text: "If your body has been bracing for too long, a session in Pune with Bhavesh is a soft, unhurried place to let some of it go." },
+      { type: "p", text: "If your body has been bracing for too long, a session in Pune with Bhaveesh is a soft, unhurried place to let some of it go." },
     ],
   },
   {
@@ -923,7 +923,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Why sessions help you hear it" },
       { type: "p", text: "Hands-on body processes turn the volume back up. In the quiet of a session, the body's signals become easier to notice — and that noticing tends to carry into daily life." },
       { type: "quote", text: "Your body has been talking all along. This is just learning to listen." },
-      { type: "p", text: "If reconnecting with your body appeals, a gentle body process with Bhavesh in Pune is a good place to begin practising the art of listening." },
+      { type: "p", text: "If reconnecting with your body appeals, a gentle body process with Bhaveesh in Pune is a good place to begin practising the art of listening." },
     ],
   },
   {
@@ -958,7 +958,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Do you need to master it?" },
       { type: "p", text: "Not at all. Many people benefit from Access sessions without ever using the clearing statement themselves. It's a tool you can learn later if it appeals, not a hurdle you must clear first." },
       { type: "quote", text: "You don't have to understand the words for the letting-go to work." },
-      { type: "p", text: "Curious to see it used naturally in context? In a session with Bhavesh in Pune, tools like this show up gently and are always explained in plain language." },
+      { type: "p", text: "Curious to see it used naturally in context? In a session with Bhaveesh in Pune, tools like this show up gently and are always explained in plain language." },
     ],
   },
   {
@@ -991,7 +991,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "The gentle way out" },
       { type: "p", text: "The work doesn't ask you to force a new belief. It asks you to hold your positions more lightly — to notice them as points of view rather than truths, which is where the next tool, 'interesting point of view', comes in." },
-      { type: "p", text: "If loosening a long-held position sounds appealing, both the verbal tools and hands-on sessions with Bhavesh in Pune are designed to help exactly that." },
+      { type: "p", text: "If loosening a long-held position sounds appealing, both the verbal tools and hands-on sessions with Bhaveesh in Pune are designed to help exactly that." },
     ],
   },
   {
@@ -1025,7 +1025,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Practise it lightly" },
       { type: "p", text: "It isn't about suppressing feelings or pretending nothing bothers you. It's about not being run by every passing reaction. Used gently and often, it makes daily life noticeably less reactive." },
       { type: "quote", text: "You are allowed to have a thought without being owned by it." },
-      { type: "p", text: "Verbal tools like this pair beautifully with hands-on sessions. If you'd like to feel the calm they point toward more deeply, a session in Pune with Bhavesh is a good complement." },
+      { type: "p", text: "Verbal tools like this pair beautifully with hands-on sessions. If you'd like to feel the calm they point toward more deeply, a session in Pune with Bhaveesh is a good complement." },
     ],
   },
   {
@@ -1058,7 +1058,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "A phrase, not a demand" },
       { type: "p", text: "It's aspirational, not a rule to measure yourself against. On a hard day, it's simply a gentle reminder that ease is allowed — that life doesn't have to be earned through exhaustion." },
-      { type: "p", text: "If a life with more ease sounds overdue, that's exactly the direction this work points. A first session with Bhavesh in Pune is a small, practical step toward it." },
+      { type: "p", text: "If a life with more ease sounds overdue, that's exactly the direction this work points. A first session with Bhaveesh in Pune is a small, practical step toward it." },
     ],
   },
   {
@@ -1091,7 +1091,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "The one rule: don't demand an answer" },
       { type: "p", text: "The magic is in the asking, not in forcing a reply. Ask, then let it go and get on with your day. Answers and openings tend to arrive later, sideways, when you're not gripping for them." },
       { type: "quote", text: "A conclusion ends the search. A question keeps you looking — and looking is where possibility lives." },
-      { type: "p", text: "These cost nothing and you can begin today. If you enjoy how a good question lightens things, you'll likely enjoy how a hands-on session does the same. Bhavesh offers sessions in Pune whenever you're curious." },
+      { type: "p", text: "These cost nothing and you can begin today. If you enjoy how a good question lightens things, you'll likely enjoy how a hands-on session does the same. Bhaveesh offers sessions in Pune whenever you're curious." },
     ],
   },
   {
@@ -1125,7 +1125,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Why it changes things" },
       { type: "p", text: "Bigger choices need room. When you stop slamming the door on a situation, you'll often find a path you couldn't see while you were busy concluding." },
       { type: "quote", text: "Certainty feels safe, but curiosity is where the good options hide." },
-      { type: "p", text: "This posture underlies the whole of Access. If you'd like to experience the spacious, unhurried state it points to, a session in Pune with Bhavesh is a fitting introduction." },
+      { type: "p", text: "This posture underlies the whole of Access. If you'd like to experience the spacious, unhurried state it points to, a session in Pune with Bhaveesh is a fitting introduction." },
     ],
   },
   {
@@ -1159,7 +1159,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Turning down the judgment" },
       { type: "p", text: "The practice isn't to force positivity, but to notice when a plain observation has been loaded with a verdict — and to set the verdict down. What's left is clearer, kinder and far more workable." },
       { type: "quote", text: "You can be fully aware of something without deciding it makes you good or bad." },
-      { type: "p", text: "Loosening self-judgment is one of the quiet gifts people describe from this work. If that appeals, a session with Bhavesh in Pune is a gentle place to start." },
+      { type: "p", text: "Loosening self-judgment is one of the quiet gifts people describe from this work. If that appeals, a session with Bhaveesh in Pune is a gentle place to start." },
     ],
   },
   {
@@ -1180,7 +1180,7 @@ export const posts: BlogPost[] = [
     excerpt:
       "This isn't woo for the boardroom. For a busy owner, the appeal is practical: clearer decisions, lower stress, less running on fumes.",
     body: [
-      { type: "p", text: "Bhavesh Sidhpura came to this work not as a spiritual seeker but as a businessman under pressure. That origin matters, because it frames what Access Consciousness actually offers a busy owner: something practical." },
+      { type: "p", text: "Bhaveesh Sidhpuura came to this work not as a spiritual seeker but as a businessman under pressure. That origin matters, because it frames what Access Consciousness actually offers a busy owner: something practical." },
       { type: "h2", text: "The specific problem of owning a business" },
       { type: "p", text: "Owners carry a particular kind of load — endless decisions, no off switch, and the sense that everything depends on them. Conventional advice says work harder or delegate better. Useful, but it rarely touches the underlying overwhelm." },
       { type: "h2", text: "What the tools offer" },
@@ -1193,7 +1193,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Not a replacement for good business" },
       { type: "p", text: "This doesn't replace strategy, numbers or hard work — it sits underneath them. The claim isn't that consciousness runs your company; it's that a calmer, clearer you runs it better than an exhausted one." },
       { type: "quote", text: "He never left business. He changed how he runs it — and who he became while doing it." },
-      { type: "p", text: "If you're an owner or professional quietly running on empty, this work speaks your language. Bhavesh offers sessions and classes in Pune for exactly the person he used to be." },
+      { type: "p", text: "If you're an owner or professional quietly running on empty, this work speaks your language. Bhaveesh offers sessions and classes in Pune for exactly the person he used to be." },
     ],
   },
   {
@@ -1226,7 +1226,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "An honest boundary" },
       { type: "p", text: "This is not financial advice and it won't magically fill your account. What it can do is reduce the anxiety and fixed thinking that often cloud money decisions — which, for many, is where real change begins." },
-      { type: "p", text: "If your relationship with money feels more fraught than it needs to be, exploring these tools in a session with Bhavesh in Pune can be a grounded first step." },
+      { type: "p", text: "If your relationship with money feels more fraught than it needs to be, exploring these tools in a session with Bhaveesh in Pune can be a grounded first step." },
     ],
   },
   {
@@ -1259,7 +1259,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Lightening the load itself" },
       { type: "p", text: "Alongside the verbal tools, many people find that a hands-on session clears enough mental clutter that decisions simply feel easier the next day — less like grinding gears, more like a clear road." },
-      { type: "p", text: "If your decisions feel heavier than they should, a session with Bhavesh in Pune is a practical way to clear some of the fog." },
+      { type: "p", text: "If your decisions feel heavier than they should, a session with Bhaveesh in Pune is a practical way to clear some of the fog." },
     ],
   },
   {
@@ -1280,7 +1280,7 @@ export const posts: BlogPost[] = [
     excerpt:
       "The cruel thing about burnout is how often it follows years of doing exactly what you were supposed to do.",
     body: [
-      { type: "p", text: "There's a particular kind of exhaustion that arrives not from failure but from success — from doing everything right and hitting a wall anyway. It's a story Bhavesh knows first-hand, and it's more common than people admit." },
+      { type: "p", text: "There's a particular kind of exhaustion that arrives not from failure but from success — from doing everything right and hitting a wall anyway. It's a story Bhaveesh knows first-hand, and it's more common than people admit." },
       { type: "h2", text: "When the formula stops working" },
       { type: "p", text: "You worked hard, followed the advice, cut costs, pushed through. For a while it worked. Then, quietly, it stopped — and doing more of the same only deepened the exhaustion. That gap is where many people first go looking for another way." },
       { type: "h2", text: "Why 'try harder' fails here" },
@@ -1293,7 +1293,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "A different doorway" },
       { type: "p", text: "For many, hands-on sessions offer exactly what burnout can't provide for itself: an hour of doing nothing, with no demand attached. It's not a cure, but it's often the first real exhale in a long time." },
       { type: "quote", text: "You can't rest your way out of burnout by trying harder to rest. Sometimes you simply have to be given the hour." },
-      { type: "p", text: "If 'doing everything right' has left you depleted, you're the person this work was quietly built for. A session with Bhavesh in Pune is a gentle place to begin." },
+      { type: "p", text: "If 'doing everything right' has left you depleted, you're the person this work was quietly built for. A session with Bhaveesh in Pune is a gentle place to begin." },
     ],
   },
   {
@@ -1326,7 +1326,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Where the tools fit" },
       { type: "p", text: "Verbal tools like 'interesting point of view' help you stay unhooked in tense moments. Hands-on sessions help you offload the accumulated stress that erodes patience and clarity over time. Together they support the calm that good leadership rests on." },
       { type: "quote", text: "You can't lead others somewhere steady if you're not steady yourself." },
-      { type: "p", text: "If you'd like to lead without running yourself down, Bhavesh — himself a business owner — offers sessions and classes in Pune for exactly this kind of professional." },
+      { type: "p", text: "If you'd like to lead without running yourself down, Bhaveesh — himself a business owner — offers sessions and classes in Pune for exactly this kind of professional." },
     ],
   },
   {
@@ -1359,7 +1359,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Starting with yourself" },
       { type: "p", text: "The work suggests that the distance we feel from others often mirrors a distance from ourselves. Easing self-judgment tends to ease how we meet everyone else — which is why the hands-on sessions matter here too." },
-      { type: "p", text: "If your closest relationships feel more distant than you'd like, exploring these tools in a session with Bhavesh in Pune can be a quietly powerful place to begin." },
+      { type: "p", text: "If your closest relationships feel more distant than you'd like, exploring these tools in a session with Bhaveesh in Pune can be a quietly powerful place to begin." },
     ],
   },
   {
@@ -1414,7 +1414,7 @@ export const posts: BlogPost[] = [
     excerpt:
       "Some people find this work only after the usual answers have run out. If that's you, this one's written for you.",
     body: [
-      { type: "p", text: "A lot of people arrive at Access Consciousness the same way Bhavesh did: not first, but last — after the courses, the advice, the effort, when nothing quite worked and they didn't know where else to look." },
+      { type: "p", text: "A lot of people arrive at Access Consciousness the same way Bhaveesh did: not first, but last — after the courses, the advice, the effort, when nothing quite worked and they didn't know where else to look." },
       { type: "h2", text: "Why 'more of the same' stops working" },
       { type: "p", text: "If you've tried everything within a certain frame and you're still stuck, the problem may not be that you need another technique from that frame. It may be that the frame itself needs a question put to it." },
       { type: "h2", text: "A different kind of doorway" },
@@ -1427,7 +1427,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "An honest, gentle invitation" },
       { type: "p", text: "No promises of miracles — just a genuinely different doorway for people who've exhausted the obvious ones. Sometimes that difference is exactly what a stuck situation needs." },
       { type: "quote", text: "When you've tried everything, the one thing left to try is something different in kind, not just degree." },
-      { type: "p", text: "If you've run out of the usual answers, a first session with Bhavesh in Pune is a low-pressure way to try a different one." },
+      { type: "p", text: "If you've run out of the usual answers, a first session with Bhaveesh in Pune is a low-pressure way to try a different one." },
     ],
   },
   {
@@ -1459,7 +1459,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Tools for everyday overwhelm" },
       { type: "p", text: "Alongside sessions, simple verbal tools help sensitive people stay less hooked by everything they pick up. Noticing 'is this even mine?' about a passing mood can be surprisingly freeing." },
-      { type: "p", text: "If the world often feels like a lot, a gentle Access Bars session in Pune with Bhavesh can be a rare hour of genuine quiet made for a sensitive system." },
+      { type: "p", text: "If the world often feels like a lot, a gentle Access Bars session in Pune with Bhaveesh can be a rare hour of genuine quiet made for a sensitive system." },
     ],
   },
   {
@@ -1492,7 +1492,7 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Trust your own read" },
       { type: "p", text: "Beyond credentials, notice how you feel talking to them. A good facilitator makes you feel at ease, answers plainly, and never pressures you. If something feels off, keep looking." },
-      { type: "p", text: "Bhavesh Sidhpura is a certified Access Consciousness facilitator based in Pune, offering sessions and classes across India on request. If you're in the region, reaching out is an easy first step." },
+      { type: "p", text: "Bhaveesh Sidhpuura is a certified Access Consciousness facilitator based in Pune, offering sessions and classes across India on request. If you're in the region, reaching out is an easy first step." },
     ],
   },
   {
@@ -1525,7 +1525,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "What you leave with" },
       { type: "p", text: "You leave certified to run the Bars for family and friends, able to join gifting-and-receiving swaps, and often noticeably more relaxed than when you arrived. Many describe the class itself as one of the calmest days they've had in ages." },
       { type: "quote", text: "One day, one skill, and a way to bring calm to the people around you for life." },
-      { type: "p", text: "Bhavesh runs certified Access Bars classes in Pune. If learning the tool appeals as much as receiving it, the class is a rewarding next step — reach out for upcoming dates." },
+      { type: "p", text: "Bhaveesh runs certified Access Bars classes in Pune. If learning the tool appeals as much as receiving it, the class is a rewarding next step — reach out for upcoming dates." },
     ],
   },
   {
@@ -1559,7 +1559,7 @@ export const posts: BlogPost[] = [
       { type: "p", text: "Your only job is to rest. If your mind wanders, that's fine. If you fall asleep, that's fine too. There's no way to do it wrong and nothing you need to achieve." },
       { type: "h2", text: "Afterward" },
       { type: "p", text: "Drink some water, move gently, and give yourself a little quiet if you can. Many people feel pleasantly dreamy, and some notice the biggest benefit that night in the form of deep sleep." },
-      { type: "p", text: "That's genuinely all there is to it. When you're ready, booking a first session with Bhavesh in Pune is a calm, simple next step." },
+      { type: "p", text: "That's genuinely all there is to it. When you're ready, booking a first session with Bhaveesh in Pune is a calm, simple next step." },
     ],
   },
   {
@@ -1593,7 +1593,7 @@ export const posts: BlogPost[] = [
         "No medical claims — it complements, never replaces, care.",
       ] },
       { type: "h2", text: "Myth: It's only for 'spiritual' people" },
-      { type: "p", text: "Some of its most enthusiastic users are pragmatic, results-driven people — business owners and professionals like Bhavesh, who came to it through stress, not spirituality." },
+      { type: "p", text: "Some of its most enthusiastic users are pragmatic, results-driven people — business owners and professionals like Bhaveesh, who came to it through stress, not spirituality." },
       { type: "quote", text: "The best antidote to a myth is your own direct experience." },
       { type: "p", text: "If the myths were what held you back, hopefully they hold a little less weight now. The surest way to judge for yourself is a single, low-pressure session in Pune." },
     ],

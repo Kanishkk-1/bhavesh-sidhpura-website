@@ -35,7 +35,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "sop-session",
     quote:
-      "Hey, thank you Bhavesh for the lovely SOP session yesterday. Feeling so at ease after the session — it's just magical. Thank you, thank you, thank you.",
+      "Hey, thank you Bhaveesh for the lovely SOP session yesterday. Feeling so at ease after the session — it's just magical. Thank you, thank you, thank you.",
     context: "After a Symphony of Possibilities session",
   },
 ];

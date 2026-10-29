@@ -43,7 +43,7 @@ export default function ClassesPage() {
                 <div className="relative aspect-4/5 w-full max-w-sm overflow-hidden rounded-card bg-surface md:ml-auto">
                   <Image
                     src={images.classroom}
-                    alt="Bhavesh at an Access Consciousness class"
+                    alt="Bhaveesh at an Access Consciousness class"
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 24rem"

@@ -1,18 +1,18 @@
 /* ---------------------------------------------------------------------------
-   SITE CONFIG  ·  Bhavesh Sidhpura
+   SITE CONFIG  ·  Bhaveesh Sidhpuura
    Single source of truth for copy, services, and swappable placeholders.
    Everything marked PLACEHOLDER is safe to edit here without touching markup.
 --------------------------------------------------------------------------- */
 
 export const site = {
-  name: "Bhavesh Sidhpura",
+  name: "Bhaveesh Sidhpuura",
   role: "Access Consciousness Facilitator",
   domain: "https://www.bhaveeshsidhpuura.com",
-  title: "Bhavesh Sidhpura, Access Consciousness Facilitator",
+  title: "Bhaveesh Sidhpuura, Access Consciousness Facilitator",
   description:
     "A businessman who found another way. Access Bars, Facelift and Body Process sessions and classes in Pune, and across India on request.",
   location: "Pune, India",
-  // PLACEHOLDER contact details (use Bhavesh's public number, not the agency's)
+  // PLACEHOLDER contact details (use Bhaveesh's public number, not the agency's)
   whatsapp: {
     display: "+91 00000 00000",
     link: "https://wa.me/910000000000",
@@ -62,7 +62,7 @@ export const hero = {
   questionEmphasis: "was never the real problem?",
   subhead:
     "The answers about money, relationships, health, and life you have been chasing outside are not out there. They are already in you, right now. This is the doorway in.",
-  hint: "Guided by Bhavesh Sidhpura, a Pune businessman who kept doing everything right and still hit a wall, until he found another way to run his work and his life. Now he helps others find it through Access Consciousness.",
+  hint: "Guided by Bhaveesh Sidhpuura, a Pune businessman who kept doing everything right and still hit a wall, until he found another way to run his work and his life. Now he helps others find it through Access Consciousness.",
   primaryCta: "Discover what's possible",
   secondaryCta: "Book a session",
   whisper: "How does it get any better than this?",
@@ -81,15 +81,15 @@ export const heroTrust = [
   "A facilitator and a businessman",
 ];
 
-/* MEET BHAVESH — the home-page introduction. Who he is, what he is qualified
+/* MEET BHAVEESH — the home-page introduction. Who he is, what he is qualified
    in, and the short shape of his journey, so a first-time visitor can place
    him and relate before anything is sold. Honest drafts; safe to edit. */
 export const meetBhavesh = {
-  kicker: "Meet Bhavesh",
+  kicker: "Meet Bhaveesh",
   heading: "A facilitator.",
   emphasis: "And a businessman.",
   lead:
-    "Bhavesh Sidhpura still runs a business here in Pune. He is also a certified Access Consciousness facilitator — and the two are not a contradiction. One is the reason he is any good at the other.",
+    "Bhaveesh Sidhpuura still runs a business here in Pune. He is also a certified Access Consciousness facilitator — and the two are not a contradiction. One is the reason he is any good at the other.",
   pull: "He never left business. He changed how he runs it.",
   body: [
     "He did not arrive through spirituality. He arrived through stress, numbers, and a year he would not wish on anyone. The tools he now facilitates are the ones that pulled his own work, health, and relationships back from the edge.",
@@ -187,7 +187,7 @@ export const story = {
   label: "His story",
   heading: "The turning point",
   audioLabel: "Hear it in his voice, 40 sec",
-  // PLACEHOLDER: Bhavesh's own-voice recording. Drop the file in /public/audio/
+  // PLACEHOLDER: Bhaveesh's own-voice recording. Drop the file in /public/audio/
   // and set this path (e.g. "/audio/story.mp3"). Empty = player hidden.
   audioSrc: "",
   pullQuote: "He never left business. He changed how he runs it.",
@@ -203,16 +203,16 @@ export const story = {
 
 /* ---------------------------------------------------------------------------
    ABOUT PAGE  ·  the man behind the work.
-   Most copy here is PLACEHOLDER until Bhavesh sends his real bio + photos.
+   Most copy here is PLACEHOLDER until Bhaveesh sends his real bio + photos.
    Each field is structured so it can be swapped one-to-one without touching markup.
 --------------------------------------------------------------------------- */
 export const about = {
   kicker: "About",
-  // PLACEHOLDER: one-line positioning. Replace with Bhavesh's own words.
+  // PLACEHOLDER: one-line positioning. Replace with Bhaveesh's own words.
   heading: "A businessman who found another way.",
   lead:
-    "Bhavesh Sidhpura still runs a business. He is also an Access Consciousness facilitator. The two are not a contradiction — one is the reason he is any good at the other.",
-  // PLACEHOLDER bio paragraphs — to be replaced with the real bio Bhavesh provides.
+    "Bhaveesh Sidhpuura still runs a business. He is also an Access Consciousness facilitator. The two are not a contradiction — one is the reason he is any good at the other.",
+  // PLACEHOLDER bio paragraphs — to be replaced with the real bio Bhaveesh provides.
   bio: [
     "He did not arrive here through spirituality. He arrived through stress, numbers, and a year he would not wish on anyone. The tools he teaches are the ones that pulled his own work, his health, and his relationships back from the edge.",
     "He has spent his life in business in Pune, and has been practising Access Consciousness since 2016. The discipline of that world is in everything he does — practical, grounded, allergic to fluff. He facilitates the way he would have wanted it offered to him: no performance, no jargon, no asking anyone to believe anything.",
@@ -266,7 +266,7 @@ export const about = {
     directory:
       "Listed on the official Access Consciousness global facilitator directory — the same place you can verify any facilitator worldwide.",
     directoryCta: "Verify on the directory",
-    // PLACEHOLDER: replace with Bhavesh's actual directory URL when confirmed.
+    // PLACEHOLDER: replace with Bhaveesh's actual directory URL when confirmed.
     directoryHref: "https://www.accessconsciousness.com/en/find-a-facilitator/",
   },
   beliefHeading: "What he actually believes",
@@ -473,7 +473,7 @@ export type Service = {
 };
 
 export const servicesHeading = {
-  heading: "Sessions with Bhavesh.",
+  heading: "Sessions with Bhaveesh.",
   body: "All in person, in Pune, or wherever he is travelling.",
 };
 
@@ -585,11 +585,11 @@ export const faqs = {
   items: [
     {
       q: "What actually happens in a Bars session?",
-      a: "You lie back, fully clothed, while Bhavesh lightly touches 32 points on your head. It is deeply relaxing. There is nothing you need to do, believe, or perform.",
+      a: "You lie back, fully clothed, while Bhaveesh lightly touches 32 points on your head. It is deeply relaxing. There is nothing you need to do, believe, or perform.",
     },
     {
       q: "Do I have to be spiritual for this to work?",
-      a: "No. Bhavesh was not either — he is a businessman. You do not need to believe in anything. You just need to be willing to notice what changes.",
+      a: "No. Bhaveesh was not either — he is a businessman. You do not need to believe in anything. You just need to be willing to notice what changes.",
     },
     {
       q: "Will this fix my money problem?",
@@ -964,7 +964,7 @@ export const possibilityMap = {
 export const images = {
   // Home hero — warm, facing camera, reads well inside a framed portrait
   heroPortrait: "/images/main.jpeg",
-  // Home "Meet Bhavesh" — composed, seated, editorial
+  // Home "Meet Bhaveesh" — composed, seated, editorial
   meetBhavesh: "/images/bgremoved.jpeg",
   // Sessions featured card — at work on stage
   delivering: "/images/e.jpeg",

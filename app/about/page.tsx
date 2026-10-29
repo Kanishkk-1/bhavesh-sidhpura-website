@@ -11,7 +11,7 @@ import { about, images } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Bhavesh Sidhpura — a Pune businessman who found another way, now a certified Access Consciousness facilitator. His qualifications, journey, and the man behind the work.",
+    "Bhaveesh Sidhpuura — a Pune businessman who found another way, now a certified Access Consciousness facilitator. His qualifications, journey, and the man behind the work.",
 };
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
                 <div className="rounded-[1.75rem] border border-border bg-bg-elevated p-2 shadow-soft">
                   <PhotoSlot
                     src={images.aboutPortrait}
-                    alt="Bhavesh Sidhpura, businessman and Access Consciousness facilitator"
+                    alt="Bhaveesh Sidhpuura, businessman and Access Consciousness facilitator"
                     label="Main portrait — editorial B&W, calm, eye to camera"
                     ratio="3/4"
                     priority

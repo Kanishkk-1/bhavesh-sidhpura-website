@@ -86,7 +86,7 @@ export function Hero() {
             <div className="relative aspect-4/5 overflow-hidden rounded-3xl bg-surface">
               <Image
                 src={images.heroPortrait}
-                alt="Portrait of Bhavesh Sidhpura"
+                alt="Portrait of Bhaveesh Sidhpuura"
                 fill
                 priority
                 sizes="(max-width: 1024px) 90vw, 40vw"

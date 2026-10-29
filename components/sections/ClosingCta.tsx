@@ -9,7 +9,7 @@ export function ClosingCta({
   body = "No pitch, no pressure. A first session, or a message to ask anything at all.",
   primaryLabel = "Book a session",
   primaryHref = "/book",
-  secondaryLabel = "About Bhavesh",
+  secondaryLabel = "About Bhaveesh",
   secondaryHref = "/about",
 }: {
   heading?: string;

@@ -24,7 +24,7 @@ export function MeetBhavesh() {
                 <div className="relative aspect-4/5 overflow-hidden rounded-[1.25rem] bg-surface">
                   <Image
                     src={images.meetBhavesh}
-                    alt="Bhavesh Sidhpura"
+                    alt="Bhaveesh Sidhpuura"
                     fill
                     sizes="(max-width: 1024px) 90vw, 34vw"
                     className="object-cover object-top"

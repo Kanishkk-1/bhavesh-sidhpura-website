@@ -8,7 +8,7 @@ import { testimonials, testimonialsPage } from "@/lib/testimonials";
 export const metadata: Metadata = {
   title: "Testimonials",
   description:
-    "Client notes after Access Consciousness sessions and classes with Bhavesh Sidhpura — in their own words.",
+    "Client notes after Access Consciousness sessions and classes with Bhaveesh Sidhpuura — in their own words.",
 };
 
 export default function TestimonialsPage() {
